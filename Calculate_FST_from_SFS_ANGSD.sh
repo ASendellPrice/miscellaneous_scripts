@@ -57,8 +57,8 @@ POP2_BAM_LIST=/path/to/pop2/bam/list
 REF=/path/to/reference/assembly
 
 #Either set path to ancestral consensus sequence (to calcualte derived SFS aka unfolded SFS) or if you dont have this set ancestral to referene (the folded SFS will be calculated instead)
-#ANC=/path/to/ancestral/consensus/sequence #<- this version for derived SFS
-ANC=$REF 
+#ANC=/path/to/ancestral/consensus/sequence #<- this version for unfolded SFS
+ANC=$REF #<- this version for folded SFS
 
 #Set output directory name (something sensible like PopX_vs_PopY)
 DIRECTORY=name_of_directory
